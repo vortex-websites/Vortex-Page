@@ -18,6 +18,11 @@ module.exports = {
       '2xl': '1536px',
     },
     extend: {
+      height: {
+        'bg-header-sm': '20rem',
+        'bg-header-md': '22rem',
+        'bg-header-lg': '26rem',
+      },
       typography: (theme) => ({
         dark: {
           css: {
