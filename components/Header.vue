@@ -6,7 +6,7 @@
         <div class="m-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 " style="padding-top: 4vh; margin: auto;">
             <div>
                 <img v-if="theme == 'light'" src="../assets/imgs/background-light.png"
-                    class="h-bg-header-sm md:h-bg-header-lg lg:h-bg-header-lg" alt="">
+                    class="h-bg-header-sm md:h-bg-header-lg lg:h-bg-header-lg w-bg-header-sm" alt="">
                 <img v-if="theme == 'dark'" src="../assets/imgs/background-dark.png"
                     class="h-bg-header-sm md:h-bg-header-lg lg:h-bg-header-lg" alt="">
             </div>

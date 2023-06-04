@@ -24,7 +24,7 @@
           class="preview h-max min-h-full p-4 top-0 left-0 prose md:prose-md lg:prose-lg xl:prose-xl block max-w-none prose-indigo leading-6 dark:prose-dark dark:bg-[#1c1c1c]"
           v-html="rendered" v-else></div>
       </div>
-      <div class="pl-[45%] pt-4">
+      <div class="pl-[24%] md:pl-[40%] lg:pl-[40%] pt-4">
         <button type="submit" @click.prevent="send" class="bg-violet-700 text-white h-14 rounded-md w-32">Enviar</button>
       </div>
     </form>

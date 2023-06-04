@@ -19,7 +19,7 @@ module.exports = {
     },
     extend: {
       height: {
-        'bg-header-sm': '20rem',
+        'bg-header-sm': '18rem',
         'bg-header-md': '22rem',
         'bg-header-lg': '26rem',
       },
