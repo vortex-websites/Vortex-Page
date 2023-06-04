@@ -69,6 +69,9 @@ export default {
             {
               position: 'bottom-right',
             });
+          this.$posthog.capture(`${from} send and email`, {
+            email: from
+          })
         } catch (error) {
           useNuxtApp().$toast.error(`Ocorreu algum erro`,
             {
