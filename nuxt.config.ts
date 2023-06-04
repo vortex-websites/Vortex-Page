@@ -31,5 +31,11 @@ export default defineNuxtConfig({
     ],
     css: [
         '@/assets/css/tailwind.css'
-    ]
+    ],
+    runtimeConfig: {
+        public: {
+            posthogPublicKey: 'phc_tVff31BGOvk478wPAkw1CgZrDvgZEvR9foJYrcK4dq4',
+            posthogHost: 'https://app.posthog.com'
+        }
+    }
 })
