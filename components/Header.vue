@@ -7,8 +7,8 @@
         <div class="p-0 md:p-20 lg:p-0 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 " style="padding-top: 4vh; ">
             <div>
                 <img src="../assets/imgs/background-light.png" class="" alt="">
-                <!-- <img v-if="theme == 'dark'" src="../assets/imgs/background-dark.png"
-                    class="h-bg-header-sm md:h-bg-header-md lg:h-bg-header-l p-0" alt=""> -->
+                <img v-if="theme == 'dark'" src="../assets/imgs/background-dark.png"
+                    class="h-bg-header-sm md:h-bg-header-md lg:h-bg-header-l p-0" alt="">
             </div>
             <div class="pl-0 md:pl-10 ">
                 <p class="font-semibold text-center md:text-center lg:text-left" style="font-size: 3vh; padding-top: 3vh;">
