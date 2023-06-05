@@ -4,15 +4,14 @@
             site para
             chamar de seu?
         </h1>
-        <div class=" grid grid-cols-1 md:grid-cols-1  lg:grid-cols-2 " style="padding-top: 4vh; ">
+        <div class="p-0 md:p-20 lg:p-0 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 " style="padding-top: 4vh; ">
             <div>
-                <img v-if="theme == 'light'" src="../assets/imgs/background-light.png"
-                    class="h-bg-header-sm md:h-bg-header-md lg:h-bg-header-lg w-bg-header-sm " alt="">
-                <img v-if="theme == 'dark'" src="../assets/imgs/background-dark.png"
-                    class="h-bg-header-sm md:h-bg-header-lg lg:h-bg-header-lg" alt="">
+                <img src="../assets/imgs/background-light.png" class="" alt="">
+                <!-- <img v-if="theme == 'dark'" src="../assets/imgs/background-dark.png"
+                    class="h-bg-header-sm md:h-bg-header-md lg:h-bg-header-l p-0" alt=""> -->
             </div>
-            <div>
-                <p class="font-semibold text-center md:text-center lg:text-left" style="font-size: 3vh; padding-top: 10vh;">
+            <div class="pl-0 md:pl-10 ">
+                <p class="font-semibold text-center md:text-center lg:text-left" style="font-size: 3vh; padding-top: 3vh;">
                     A Vortex oferece serviços de websites de portfólio até sites e-commerce, mas estamos sempre
                     procurando
                     resolver
