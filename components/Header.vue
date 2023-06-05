@@ -45,7 +45,10 @@ function toggleTheme() {
 }
 
 useMeta({
-    title: 'Vortex Websites'
+    title: 'Vortex Websites',
+    meta: [
+        { name: 'Constrímos os mais diversos tipos de sites', content: 'Constrímos os mais diversos tipos de sites' }
+    ]
 })
 
 </script>
