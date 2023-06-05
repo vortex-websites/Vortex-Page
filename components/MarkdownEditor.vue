@@ -1,7 +1,7 @@
 <template>
   <div class="w-full mx-auto">
-
-    <form>
+    <h1 class="text-center" style="font-size: 4vh;">Em breve</h1>
+    <!-- <form>
       <input type="email" required="true" placeholder="digite seu email" v-model="email"
         class="m-auto border border-b-0 pb-4 w-52" />
       <div class="pt-4"></div>
@@ -27,7 +27,7 @@
       <div class="pl-[24%] md:pl-[40%] lg:pl-[40%] pt-4">
         <button type="submit" @click.prevent="send" class="bg-violet-700 text-white h-14 rounded-md w-32">Enviar</button>
       </div>
-    </form>
+    </form> -->
   </div>
 </template>
 
