@@ -23,10 +23,10 @@ export const useThemeStore = defineStore({
     toggleTheme() {
       if (this.theme == "dark") {
         document.body.classList.remove(this.theme);
-        this.theme = 'light';
+        this.theme = 'dark';
       } else {
         document.body.classList.remove(this.theme);
-        this.theme = 'dark';
+        this.theme = 'theme';
       }
       localStorage.setItem('mytheme', this.theme);
       document.body.classList.add(this.theme);
