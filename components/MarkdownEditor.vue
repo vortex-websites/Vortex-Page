@@ -73,10 +73,10 @@ export default {
             email: from
           })
         } catch (error) {
-          useNuxtApp().$toast.error(`Ocorreu algum erro`,
-            {
-              position: 'bottom-right',
-            });
+          // useNuxtApp().$toast.error(`Ocorreu algum erro`,
+          //   {
+          //     position: 'bottom-right',
+          //   });
         }
       }
     }

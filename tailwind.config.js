@@ -19,9 +19,9 @@ module.exports = {
     },
     extend: {
       height: {
-        'bg-header-sm': '18rem',
+        'bg-header-sm': '16rem',
         'bg-header-md': '22rem',
-        'bg-header-lg': '26rem',
+        'bg-header-lg': '22rem',
       },
       typography: (theme) => ({
         dark: {
@@ -40,7 +40,7 @@ module.exports = {
               color: theme('colors.gray.400'),
             },
             'ul > li::before': {
-              backgroundColor: theme('colors.gray.600'),
+              backgroundColor: theme('bg-gradient-to-r from-slate-50 to-purple-200colors.gray.400'),
             },
             hr: {
               borderColor: theme('colors.gray.700'),
@@ -72,7 +72,7 @@ module.exports = {
             },
             pre: {
               color: theme('colors.white'),
-              backgroundColor: theme('colors.gray.800'),
+              backgroundColor: theme('colors.green-100'),
             },
             thead: {
               color: theme('colors.gray.200'),
